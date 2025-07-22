@@ -1,39 +1,117 @@
 <!DOCTYPE html>
-<html lang-"en">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paige Flickinger</title>
-    <link rel="stylesheet" href="" style.css" />
+    <meta name="description" content="Paige Flickinger - Computer Science Graduate, Software Developer, and former professional volleyball player passionate about cybersecurity and program management." />
+    <title>Paige Flickinger - Software Developer</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <div class="container">
             <h1>Hello, I'm Paige Flickinger</h1>
-            <p>Computer Science Graduate | Software Developer | Cybersecurity | Program Management</p>
+            <p class="tagline">Computer Science Graduate | Software Developer | Cybersecurity | Program Management</p>
+            <p class="intro">Former professional volleyball player turned software engineer with a passion for solving real-world problems</p>
         </div>
     </header>
     
-    <main class="container"
+    <main class="container">
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm a former professional volleyball player turned software engineer with a passion for solving real-world problems. 
+                I'm a former professional volleyball player who discovered my passion for technology and made the leap into software engineering. My athletic background taught me discipline, teamwork, and how to perform under pressure—skills that translate perfectly to the fast-paced world of software development.
+            </p>
+            <p>
+                With a Computer Science degree and growing expertise in cybersecurity and program management, I love tackling complex problems and building solutions that make a real impact. Whether it's developing mobile applications, analyzing security risks, or managing technical projects, I bring the same competitive drive and attention to detail that made me successful in sports.
             </p>
         </section>
 
+        <section id="experience">
+            <h2>Current Experience</h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Associate Software Developer Intern</h3>
+                    <div class="company-info">
+                        <span class="company">Humanetics</span>
+                        <span class="duration">Current Position</span>
+                    </div>
+                </div>
+                <p class="experience-description">
+                    Currently working with the backend development team, contributing to software solutions that advance automotive safety technology. Gaining hands-on experience in enterprise-level software development, collaborating with cross-functional teams, and applying my technical skills in a professional environment.
+                </p>
+                <div class="experience-highlights">
+                    <h4>Key Responsibilities:</h4>
+                    <ul>
+                        <li>Backend development and system integration</li>
+                        <li>Collaborating with senior developers on production code</li>
+                        <li>Contributing to automotive safety software solutions</li>
+                        <li>Participating in code reviews and agile development processes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Dart/Flutter</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies & Tools</h3>
+                    <ul>
+                        <li>Flutter Framework</li>
+                        <li>Git & GitHub</li>
+                        <li>Cybersecurity Analysis</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Geaux U-Rec:</strong> Flutter app for rec center scheduling and messaging</li>
-                <li><strong>Cyber Risk Analyzer:</strong> Python script that flags stuff</li>
-                <li><strong>Personal Portfolio:</strong> You're looking at it!</li>
-            </ul>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Geaux U-Rec</h3>
+                    <p>A comprehensive Flutter mobile application designed for university recreation centers, featuring real-time scheduling, messaging capabilities, and user-friendly interface for students and staff.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">Mobile Development</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Cyber Risk Analyzer</h3>
+                    <p>A Python-based security analysis tool that identifies potential vulnerabilities and flags security risks in systems and applications, helping organizations maintain robust cybersecurity postures.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cybersecurity</span>
+                        <span class="tech-tag">Risk Analysis</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>This responsive website showcasing my journey from professional athletics to software development, built with clean HTML, CSS, and JavaScript.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
@@ -48,5 +126,6 @@
         <p>© 2025 Paige Flickinger</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
